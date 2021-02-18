@@ -1,0 +1,40 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  background-color: #fbfcfe;
+  padding: 10px;
+}
+form input[type="email"] {
+  font-size: 15px;
+  padding: 20px;
+}
+.save {
+  width: 150px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+INPUT[type="checkbox"]:focus {
+  outline: 1px solid #dc3545;
+}
+
+INPUT[type="checkbox"] {
+  background-color: #ddd;
+  border-radius: 2px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+}
+
+INPUT[type="checkbox"]:checked {
+  background-color: #dc3545;
+  background: #dc3545
+    url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==")
+    3px 3px no-repeat;
+}
